@@ -1,0 +1,168 @@
+@media (max-width: 1024px) and (min-width: 769px) {
+  .top-bar__content,
+  .header__wrapper,
+  .header__bottom {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .primary-nav__list,
+  .secondary-nav__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .header__left,
+  .header__center,
+  .header__right {
+    flex: 1 1 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header__icons {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+
+.top-bar__content,
+.header__wrapper,
+.header__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+// Telefonlar (maksimal eni 768px)
+@media (max-width: 768px) {
+  .top-bar__content,
+  .header__wrapper,
+  .header__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .top-bar__left,
+  .top-bar__center,
+  .top-bar__right,
+  .header__left,
+  .header__center,
+  .header__right {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .primary-nav__list,
+  .secondary-nav__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .header__right {
+    align-items: flex-start;
+  }
+
+  .header__icons {
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .header__right-text h2 {
+    font-size: 16px;
+  }
+
+  .header__right-text p {
+    font-size: 14px;
+  }
+
+  .header__right-action {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .header__icon-badge {
+    font-size: 10px;
+    top: -5px;
+    right: -5px;
+  }
+
+  .header__left-text {
+    display: none; // Logotip ostidagi matn kichik ekranda yashiriladi
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+  .video-reviews-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .testimonial-card {
+    width: 100%;
+  }
+
+  .testimonial-card .card--img {
+    height: 300px;
+    width: auto;
+  }
+
+  .testimonial-card h3 {
+    font-size: 18px;
+  }
+
+  .testimonial-card .testimonial-text {
+    font-size: 14px;
+  }
+
+  .testimonial-card .card-btn {
+    font-size: 14px;
+  }
+  .card--img {
+    width: auto;
+  }
+   .card--imge {
+    width: auto;
+  }
+  .text-btn {
+    margin-left: auto;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .video-reviews-wrapper {
+    gap: 20px;
+  }
+
+  .testimonial-card .card--img {
+    height: 300px;
+  }
+
+  .testimonial-card h3 {
+    font-size: 16px;
+  }
+
+  .testimonial-card .testimonial-text {
+    font-size: 13px;
+  }
+
+  .testimonial-card .card-btn {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+}
