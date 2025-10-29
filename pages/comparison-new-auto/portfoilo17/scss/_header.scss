@@ -1,0 +1,294 @@
+.top-bar {
+  background-color: rgba(239, 240, 240, 1);
+  padding: 12px 0;
+}
+.top-bar__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(115, 115, 115, 1);
+}
+.top-bar__left-text,
+.top-bar__center-text,
+.top-bar__right-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__badge {
+  font-weight: 700;
+  font-size: 16px;
+}
+.header__badge-span {
+  background-color: #d60000;
+  color: white;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 999px;
+  font-size: 16px;
+  white-space: nowrap;
+  display: inline-block;
+}
+.primary-nav__list {
+  display: flex;
+  gap: 16px;
+}
+
+.nes {
+  color: #d60000;
+}
+.primary-nav__link {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+}
+.primary-nav__link:hover {
+  color: #d60000;
+  transition: 0.1s;
+}
+.header__right {
+  display: flex;
+  gap: 12px;
+}
+.header__right-first-number {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(38, 38, 38, 1);
+}
+.header__right-second-number {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(38, 38, 38, 1);
+}
+.header__right-action {
+  background-color: rgba(202, 1, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 6px;
+  border: 0;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 16px 10px;
+}
+.header__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 26px;
+}
+.secondary-nav__list {
+  display: flex;
+  align-items: center;
+  gap: 86px;
+}
+.secondary-nav-link {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(38, 38, 38, 1);
+}
+.secondary-nav-link:hover {
+  color: #d60000;
+  transition: 0.1s;
+}
+.header__icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__icon {
+  position: relative;
+  display: inline-block;
+}
+.header__icon-img {
+  width: 24px;
+  height: 24px;
+}
+.header__icon-badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: red;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 6px;
+  line-height: 1;
+}
+
+
+
+
+
+
+
+// .company__wrapper {
+// }
+.company--title {
+  width: 155px;
+  height: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: gray;
+  margin-top: 60px;
+}
+.company--topic {
+  width: 393px;
+  height: 82px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 100%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.horizontal {
+  color: gray;
+  margin-bottom: 55px;
+}
+.company--text  {
+  width: 1400px;
+  height: 230px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+// .company--information {
+// }
+.information {
+  display: flex;
+  gap: 30px;
+}
+.information h5 {
+  color: #262626;
+  line-height: 25px;
+}
+.company--text-end {
+  width: 1400px;
+  height: 200px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3b3b;
+  margin-top: 30px;
+}
+ 
+.head--part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+// .cpmany--topic-two {
+// }
+.topic--btn {
+  display: flex;
+  align-items: center;
+}
+.company--avtosalon-foto {
+  display: flex;
+  gap: 30px;
+}
+.lacation {
+  display: flex;
+  border: 1px solid #f8f8f8;
+  margin-top: 70px;
+  gap: 117px;
+  background-color: #F8F8F8;
+  border-radius: 25px;
+}
+.briefly h1 {
+  width: 307px;
+  height: 239px;
+  font-weight: 500;
+  font-size: 252px;
+  line-height: 100%;
+  color: #d60000;
+}
+.briefly h4 {
+  text-align: center;
+  color: #d60000;
+  font-size: 24px;
+}
+.briefly {
+  margin: 30px 0px 10px 50px;
+}
+.about-ourselves {
+  display: flex;
+  gap: 100px;
+}
+.market-one {
+  border: 2px solid black;
+   border-radius: 50%;
+   background-color: #262626;
+   padding: 3px 5px;
+}
+.people-one {
+  border: 1px solid black;
+   border-radius: 50%;
+   background-color: #262626;
+   padding: 10px 3px;
+   margin-left: 15px;
+}
+.people {
+  margin-left: 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+.market {
+  margin-top: 50px;
+  text-align: center;
+}
+// .copmany-map {
+// }
+.Partner-banks {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+
+
+
+.head--part1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.banks-img {
+  width: 327px;
+  height: 133px;
+  border: 1px solid #F8F8F8;
+  padding:  8px 10px;
+  background-color: #e4e3e3;
+  border-radius: 10px;
+}
+.banks-imge {
+  width: 327px;
+  height: 133px;
+  border: 1px solid #F8F8F8;
+  padding:  8px 60px;
+  background-color: #e4e3e3;
+  border-radius: 10px;
+}
+.banks-imga {
+  width: 327px;
+  height: 133px;
+  border: 1px solid #F8F8F8;
+  padding:  8px 30px;
+  background-color: #e4e3e3;
+  border-radius: 10px;
+}
